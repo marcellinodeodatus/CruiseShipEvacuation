@@ -23,4 +23,10 @@ public class EvacueeQueue {
 		System.out.println("<<getNextEvacuee>>");
 		return pq.poll();
 	}
+
+	public int size(){
+		int a = 0;
+		a = pq.size();
+		return a;
+	}
 }
